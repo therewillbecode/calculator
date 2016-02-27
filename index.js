@@ -1,10 +1,7 @@
-function add(num1, num2){
-    return num1 + num2;
-}
+'use strict';
+var c = require('./calculator_class');
 
-function divide(num1, num2){
-    return num1 / num2;
-}
+let t = new c.Calculator('tom');
+console.log(t.name);
 
-module.exports.add = add;
-module.exports.divide = divide;
+
