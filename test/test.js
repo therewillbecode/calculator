@@ -9,3 +9,12 @@ describe('add', function() {
         });
     });
 });
+
+// tests divide function
+describe('divide', function() {
+    describe('#add()', function () {
+        it('should return 2 when 4 is divided by 2', function () {
+            expect(index.divide(4, 2)).to.equal(2);
+        });
+    });
+});
