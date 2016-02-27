@@ -20,3 +20,20 @@ describe('computations', function() {
     });
 });
 
+// tests has properties
+describe('methods exist?', function() {
+
+    describe('#hasaddmethod()', function () {
+        it('calculator object should have an add method', function () {
+            let calc = new cla.Calculator();
+            expect(calc).respondTo('add');
+        });
+    });
+
+    describe('#hasdividemethod()', function () {
+        it('calculator object should have an divide method', function () {
+            let calc = new cla.Calculator();
+            expect(calc).respondTo('divide');
+        });
+    });
+});
