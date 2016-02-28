@@ -13,7 +13,7 @@ describe('computations', function() {
             expect(Scicalc.square(2)).to.equal(4);
         });
     });
-
+});
 // tests has properties
 describe('methods exist?', function() {
 
@@ -23,3 +23,4 @@ describe('methods exist?', function() {
             expect(Scicalc).respondTo('square');
         });
     });
+});
